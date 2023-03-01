@@ -58,7 +58,7 @@ const Login = () => {
                                 <TextField id="email" name='email' label="E-mail" variant="outlined" fullWidth required/>
                             </Grid>
                             <Grid item xs={12}>
-                                <TextField  id="password" name="password" label="Contraseña" variant="outlined" type='password' fullWidth  required/>
+                                <TextField  id="password" name="password" label="Password" variant="outlined" type='password' fullWidth  required/>
                             </Grid>
                             <Grid item xs={12}>
                                 <Button 
