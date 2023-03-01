@@ -3,9 +3,7 @@ import { Box, Button, Container, Grid, TextField, FormControl } from '@mui/mater
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from 'react-redux'
 import { userLogin } from './loginSlice'
-// import { userLogin } from '../features/login/loginSlice'
 
-// import { USERS } from '../data/users'
 import { USERS } from '../../data/users'
 
 const LoginContent = () => {

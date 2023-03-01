@@ -6,7 +6,7 @@ import Container from '@mui/material/Container';
 import { useSelector } from 'react-redux'
 
 const UserInfo = () => {
-    const user = useSelector((state) => state.user.userInfo)
+    const { userId, username, avatar, email, birthdate, registeredAt } = useSelector((state) => state.user.userInfo)
     return (
         <>
             <LoginAppBar />
@@ -14,12 +14,12 @@ const UserInfo = () => {
             sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', pt: 25}}
             >
                 <Card 
-                    userId={user.userId}
-                    userName={user.username}
-                    avatar={user.avatar}
-                    email={user.email}
-                    birthdate={user.birthdate}
-                    registeredAt={user.registeredAt}
+                    userId={userId}
+                    userName={username}
+                    avatar={avatar}
+                    email={email}
+                    birthdate={birthdate}
+                    registeredAt={registeredAt}
                 />
             </Container>
         </>
