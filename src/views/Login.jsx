@@ -1,6 +1,6 @@
 import React from 'react'
-import LoginAppBar from '../features/bar/LoginAppBar'
-import LoginContent from '../features/login/LoginContent'
+const LoginAppBar = React.lazy(() => import ('../features/bar/LoginAppBar'))
+const LoginContent = React.lazy(() => import ('../features/login/LoginContent'))
 
 const Login = () => {    
     return (

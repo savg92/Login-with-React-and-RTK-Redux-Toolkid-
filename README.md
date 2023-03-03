@@ -18,17 +18,6 @@
   ```
   npm run dev
 
-## Documentación
-La documentación de la API puede encontrarse en el archivo **dataWarehous.yaml** presente en el directorio raíz del repositorio.
-Para mejor visualización, puedes ingresar a [swagger](https://editor.swagger.io/#).
-
-Tambien se agregó el archivo **dataWarehouse.postman_collection.json** en el directorio raíz del repositorio para ser importado en POSTMAN; este ya contiene todas las rutas de la API.
-
-Para iniciar las prubas de la API, se recomienda iniciar usando:
-- El usuario ***ADMIN***.<br>
-  ***email:*** admin@admin.com <br>
-  ***password:*** 123
-
 ### Endpoints
 La url base es 
 127.0.0.1:5173

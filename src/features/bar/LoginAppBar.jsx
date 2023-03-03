@@ -8,8 +8,6 @@ import { Box } from '@mui/system';
 import { useSelector } from 'react-redux';
 import LogOutButton from '../bar/LogOutButton';
 
-
-
 const LoginAppBar = () => {
   const isLogged = useSelector((state) => state.user.isLogged)
   return (

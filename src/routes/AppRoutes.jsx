@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
+import { useSelector } from 'react-redux'
 import PublicRoutes from '../routes/PublicRoutes'
 import ProtectedRoutes from './ProtectedRoutes'
-import UserInfo from '..//views/UserInfo'
-import Login from '../views/Login'
-import { useSelector } from 'react-redux'
+const UserInfo = React.lazy(() => import ('../views/UserInfo'))
+const Login = React.lazy(() => import ('../views/Login'))
 
 
 export const AppRoutes = () => {

@@ -1,9 +1,8 @@
 import React from 'react'
-import LoginAppBar from '../features/bar/LoginAppBar'
 import Card from '../features//card//Card'
 import Container from '@mui/material/Container';
-// import {USERS} from '..//data//users'
 import { useSelector } from 'react-redux'
+import LoginAppBar from '../features/bar/LoginAppBar'
 
 const UserInfo = () => {
     const { userId, username, avatar, email, birthdate, registeredAt } = useSelector((state) => state.user.userInfo)
