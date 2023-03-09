@@ -3,9 +3,8 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 import PublicRoutes from '../routes/PublicRoutes'
 import ProtectedRoutes from './ProtectedRoutes'
-const UserInfo = React.lazy(() => import ('../views/UserInfo'))
-const Login = React.lazy(() => import ('../views/Login'))
-
+import UserInfo from '../views/UserInfo'
+import Login from '../views/Login'
 
 export const AppRoutes = () => {
     const state = useSelector((state) => state.user)
