@@ -1,6 +1,6 @@
 ## Languages / Lenguajes
 - [EN](#language-en)
-- [ES](#lenguaje-sp)
+- [SP](#lenguaje-sp)
 
 ## Language: EN
 ## Index
