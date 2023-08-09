@@ -9,7 +9,7 @@
     - [Basic requirements](#basic-requirements)
     - [Installation](#installation)
     - [Endpoints](#endpoints)
-  - [Built with:](#built-with)
+  - [Built with](#built-with)
 
 # Login APP Using RTK (Redux Toolkid)
 This project proposes the creation of a client / contact management system for a company. <br>
@@ -40,7 +40,7 @@ The APP has the following endpoints:
 <br>(The following endpoints require login, granted in login)
 - /user
 
-## Built with:
+## Built with
 
 Tools and / or packages used in the project:
 
@@ -64,7 +64,7 @@ Tools and / or packages used in the project:
     - [Requisitos basicos](#requisitos-basicos)
     - [Instalacion](#instalacion)
     - [Endpoints](#endpoints)
-  - [Construido con:](#construido-con)
+  - [Construido con](#construido-con)
 
 # Login APP Using RTK (Redux Toolkid)
 Esté proyecto plantea la creación de un sistema de gestion de clientes/contactos para una empresa. <br>
@@ -95,7 +95,7 @@ La APP cuenta con los siguientes endpoints:
 <br>(Los siguientes endpoints requieren del inicio de sesion, otorgado en el login)
 - /user
 
-## Construido con:
+## Construido con
 
 Herramientas y/o paquetes usados en el proyecto:
 
