@@ -1,10 +1,10 @@
 # Login APP Using RTK (Redux Toolkid)
-    Esté proyecto plantea la creación de un sistema de gestion de clientes/contactos para una empresa. <br>
-    Deberás poner en funcionamiento las partes necesarias para montar una REST API que permita realizar altas, bajas, modificaciones y obtención de información sobre una estructura de datos que podría consumir un cliente.
+Esté proyecto plantea la creación de un sistema de gestion de clientes/contactos para una empresa. <br>
+Deberás poner en funcionamiento las partes necesarias para montar una REST API que permita realizar altas, bajas, modificaciones y obtención de información sobre una estructura de datos que podría consumir un cliente.
 
 
 ## Instrucciones
-    Instrucciones que permitirán la utilización de una copia de los archivos de forma local en tu computadora.
+Instrucciones que permitirán la utilización de una copia de los archivos de forma local en tu computadora.
 
 ### Requisitos basicos
 - Tener instalado NodeJS.
@@ -27,8 +27,20 @@ La APP cuenta con los siguientes endpoints:
 <br>(Los siguientes endpoints requieren del inicio de sesion, otorgado en el login)
 - /user
 
-## Construido con
+## Construido con:
 
 Herramientas y/o paquetes usados en el proyecto:
 
 - [NodeJS](https://nodejs.org/en/)
+- [React](https://es.reactjs.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [React Router](https://reactrouter.com/web/guides/quick-start)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Emotion](https://emotion.sh/docs/introduction)
+- [Material UI](https://material-ui.com/)
+- [Faker-JS](https://fakerjs.dev)
+- [Vite](https://vitejs.dev/)
+
+
+
+
