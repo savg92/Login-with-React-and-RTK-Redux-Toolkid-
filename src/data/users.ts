@@ -1,6 +1,16 @@
 import { faker } from '@faker-js/faker';
 
-export const USERS = [];
+export interface IUser {
+  userId: string;
+  username: string;
+  email: string;
+  avatar: string;
+  password: string;
+  birthdate: string;
+  registeredAt: string;
+}
+
+export const USERS: IUser[] = [];
 
 export function createRandomUser() {
   return {
