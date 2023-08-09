@@ -1,6 +1,6 @@
 ## Languages / Lenguajes
 - [EN](#language-en)
-- [ES](#lenguaje-es)
+- [ES](#lenguaje-sp)
 
 ## Language: EN
 ## Index
@@ -57,7 +57,7 @@ Tools and / or packages used in the project:
 <br>
 <br>
 
-## Lenguaje: ES
+## Lenguaje: SP
 ## Index
 - [Login APP Using RTK (Redux Toolkid)](#login-app-using-rtk-redux-toolkid)
   - [Instrucciones](#instrucciones)
